@@ -535,6 +535,8 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
       machineRef.current.traverse((child) => {
         if (child instanceof THREE.Mesh) {
 
+        
+
           const oldMaterial = child.material as THREE.MeshStandardMaterial
           child.frustumCulled 
           child.material = new THREE.MeshStandardMaterial({
@@ -797,10 +799,10 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
         <mesh name="M481I240" castShadow receiveShadow geometry={nodes.M481I240.geometry} material={materials.COL7} position={[2.047, -0.325, -0.918]} />
         <mesh name="M479I239" castShadow receiveShadow geometry={nodes.M479I239.geometry} material={materials.COL7} position={[2.047, -0.325, -0.918]} />
         <mesh name="M477I238" castShadow receiveShadow geometry={nodes.M477I238.geometry} material={materials.COL8} position={[2.047, -0.325, -0.918]} />
-        <mesh name="M475I237" castShadow receiveShadow geometry={nodes.M475I237.geometry} material={materials.COL15} position={[2.047, -0.325, -0.918]} />
-        <mesh name="M473I236" castShadow receiveShadow geometry={nodes.M473I236.geometry} material={materials.COL15} position={[2.047, -0.325, -0.918]} />
-        <mesh name="M471I235" castShadow receiveShadow geometry={nodes.M471I235.geometry} material={materials.COL15} position={[2.047, -0.325, -0.918]} />
-        <mesh name="M469I234" castShadow receiveShadow geometry={nodes.M469I234.geometry} material={materials.COL15} position={[2.047, -0.325, -0.918]} />
+        {/* <mesh name="M475I237" castShadow receiveShadow geometry={nodes.M475I237.geometry} material={materials.COL15} position={[2.047, -0.325, -0.918]} /> */}
+        {/* <mesh name="M473I236" castShadow receiveShadow geometry={nodes.M473I236.geometry} material={materials.COL15} position={[2.047, -0.325, -0.918]} /> */}
+        {/* <mesh name="M471I235" castShadow receiveShadow geometry={nodes.M471I235.geometry} material={materials.COL15} position={[2.047, -0.325, -0.918]} /> */}
+        {/* <mesh name="M469I234" castShadow receiveShadow geometry={nodes.M469I234.geometry} material={materials.COL15} position={[2.047, -0.325, -0.918]} /> */}
         <mesh name="M467I233" castShadow receiveShadow geometry={nodes.M467I233.geometry} material={materials.COL1} position={[2.047, -0.325, -0.918]} />
         <mesh name="M465I232" castShadow receiveShadow geometry={nodes.M465I232.geometry} material={materials.COL3} position={[2.047, -0.325, -0.918]} />
         <mesh name="M463I231" castShadow receiveShadow geometry={nodes.M463I231.geometry} material={materials.COL4} position={[2.047, -0.325, -0.918]} />
@@ -879,7 +881,7 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
         <mesh name="M317I158" castShadow receiveShadow geometry={nodes.M317I158.geometry} material={materials.COL7} position={[2.047, -0.325, -0.918]} />
         <mesh name="M315I157" castShadow receiveShadow geometry={nodes.M315I157.geometry} material={materials.COL7} position={[2.047, -0.325, -0.918]} />
         <mesh name="M313I156" castShadow receiveShadow geometry={nodes.M313I156.geometry} material={materials.COL14} position={[2.047, -0.325, -0.918]} />
-        <mesh name="M311I155" castShadow receiveShadow geometry={nodes.M311I155.geometry} material={materials.COL14} position={[2.047, -0.325, -0.918]} />
+        <mesh name="M311I155" castShadow receiveShadow geometry={nodes.M311I155.geometry} material={materials.COL14} position={[2.047, -0.325, -0.918]} /> 
         <mesh name="M309I154" castShadow receiveShadow geometry={nodes.M309I154.geometry} material={materials.COL7} position={[2.047, -0.325, -0.918]} />
         <mesh name="M307I153" castShadow receiveShadow geometry={nodes.M307I153.geometry} material={materials.COL11} position={[2.047, -0.325, -0.918]} />
         <mesh name="M305I152" castShadow receiveShadow geometry={nodes.M305I152.geometry} material={materials.COL12} position={[2.047, -0.325, -0.918]} />
